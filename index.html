@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container-fluid bg-image">
+        <!-- Header -->
+        <div class="row d-flex row-padding">
+            <div class="col-md-6 bg-dark text-white">
+                <h1><img src="./images//cflogo.png" alt="CF Logo"></h1>
+            </div>
+            <div class="col-md-3 bg-dark text-white">
+                <div class="d-inline-block text-right">
+                <button class="btn btn-link text-white">Home</button>
+                <button class="btn btn-link text-white">Activities</button>
+                <button class="btn btn-link text-white">Messages</button>
+            </div>
+            </div>
+
+            <div class="col-md-3 bg-dark text-white text-right">
+                <div class="d-inline-block">
+                    <img src="./images/stewardess.png" alt="Stella John" class="rounded-circle" width="40">
+                    <span>Stella John</span>
+                </div>
+                <button class="btn btn-link ml-3 text-white">Logout</button>
+            </div>
+
+            <div class="row sidebar-padding">
+                <!-- Sidebar -->
+                <div class="col-md-3 sidebar">
+                    <div class="profile-section">
+                        <!-- Use relative paths for images -->
+                        <img src="./images/stewardess.png" alt="Stella John" class="profile-pic">
+                        <h4>Stella John</h4>
+                        <a href="#" class="btn btn-primary btn-sm">Edit Profile</a>
+                        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="bio"><i class="fas fa-map-marker-alt"></i> 7463 Ivy CA 48877, Lorem ipsum dolor sit
+                            amet.</p>
+                        <p class="bio"><i class="fas fa-calendar-alt"></i> Member Since November 2010</p>
+                    </div>
+                    <div class="menu-section">
+                        <p><strong>Followers (34)</strong></p>
+                        <p><strong>Following (48)</strong></p>
+                        <p><strong>Trophies (Show All) (8)</strong></p>
+                        <p><strong>Subscribed Activities (34)</strong></p>
+                        <ul>
+                            <li>Running</li>
+                            <li>Weight Lifting</li>
+                            <li>Basketball</li>
+                            <li>Softball</li>
+                            <li>Baseball</li>
+                            <li>Tennis</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Timeline -->
+                <div class="col-md-6 timeline">
+                    <div class="post">
+                        <p class="time text-right">Today, 3:39PM</p>
+                        <div class="post-header">
+                            <img src="./images/happy.png" alt="Paul Brunet" class="post-pic">
+                            <p><strong>Paul Brunet</strong> posted in <a href="#">Running</a></p>
+                            
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                            <p class="text-right text-primary">Read more></p>
+                        
+                        <div class="comment">
+                            <img src="./images/manager.png" alt="Anne Hathaway" class="comment-pic">
+                            <p><strong>Anne Hathaway</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="comment">
+                            <img src="./images/teenager.png" alt="Remy Daniel" class="comment-pic">
+                            <p><strong>Remy Daniel</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                
+                        </div>
+                        <p class="text-right text-primary">More comments></p>
+                        <div>
+                        <p class="comment-header">Comments</p>
+                        <textarea placeholder="Write your comment here..."></textarea>
+                        <button type="button" class="btn btn-primary">Post</button>
+                    </div>
+                    </div>
+                    <div class="post">
+                        <p class="time text-right">Yesterday, 6:49AM</p>
+                        <div class="post-header">
+                            <img src="./images/happy.png" alt="Paul Brunet" class="post-pic">
+                            <p><strong>Paul Brunet</strong> posted in <a href="#">Baseball</a></p>
+                            
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                        <p class="comment-header">Comments</p>
+                        <div class="comment">
+                            <img src="./images/manager.png" alt="Anne Hathaway" class="comment-pic">
+                            <p><strong>Anne Hathaway</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <div class="comment">
+                            <img src="./images/teenager.png" alt="Remy Daniel" class="comment-pic">
+                            <p><strong>Remy Daniel</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                        <textarea placeholder="Write your comment here..."></textarea>
+                        <button type="button" class="btn btn-primary">Post</button>
+                    </div>
+                </div>
+
+                <!-- Right Sidebar -->
+                <div class="col-md-3">
+                    <div class="notifications">
+                        <h4>Notifications</h4>
+                        <p><strong>Jon</strong> commented It was really helpful and... on your post <strong>5 ways to
+                                successfully... in Running</strong> 15 min Before</p>
+                        <p><strong>Jon</strong> commented It was really helpful and... on your post <strong>5 ways to
+                                successfully... in Running</strong> Yesterday</p>
+                        <p><strong>Jon</strong> commented It was really helpful and... on your post <strong>5 ways to
+                                successfully... in Running</strong> 2 Days Before</p>
+                    </div>
+                    <div class="recent-messages">
+                        <h4>Recent Messages</h4>
+                        <p><strong>Remy Daniel</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            </p>
+                            <p class="text-right">
+                            <button type="button"
+                                class="btn btn-link">Reply</button></p>
+                        <p><strong>Paul Brunet</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                             </p>
+                             <p class="text-right">
+                                <button type="button"
+                                    class="btn btn-link">Reply</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
